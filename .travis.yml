@@ -1,5 +1,9 @@
 language: generic
 
+os:
+  - linux
+  - osx
+
 matrix:
   include:
     - env: TARGET=armv7-unknown-linux-gnueabihf
